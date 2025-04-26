@@ -19,9 +19,9 @@ const Frame = styled.div`
   
   // width: 410px;
   width: 100vw;
-  padding-left: 3px;
-  padding-right: 6px;
-  padding-top: 10px; 
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
 `
 
 export default App;
