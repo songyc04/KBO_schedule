@@ -17,10 +17,10 @@ function App() {
 
 const Frame = styled.div`
   
-  width: 380px;
+  width: 410px;
 
-  padding-left: 3px;
-  padding-right: 6px;
+  // padding-left: 3px;
+  // padding-right: 6px;
   padding-top: 10px; 
 `
 
