@@ -14,5 +14,5 @@ export default defineConfig({
   server: {
     port: 6120
   },
-  base: "/kbo_schedule/"
+  base: "./"
 })
