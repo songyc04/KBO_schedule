@@ -13,7 +13,7 @@ const Month = styled.button`
   flex-grow: 1;
 
 
-  font-size: 20px;
+  font-size: 10px;
 `
 
 export default Months;

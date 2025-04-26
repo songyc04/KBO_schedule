@@ -17,7 +17,7 @@ const TopBottom = () => {
 const Layout = styled.div`
   border-bottom: 1px solid red;
 
-  height: 50px;
+  height: 30px;
 
   display: flex;
 `
