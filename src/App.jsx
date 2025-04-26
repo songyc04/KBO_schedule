@@ -16,12 +16,10 @@ function App() {
 
 
 const Frame = styled.div`
-  
-  // width: 410px;
   width: 90vw;
   margin-left: 5vw;
-  margin-right: 10vw;
-  margin-top: 10px;
+  
+  margin-top: 20px;
 `
 
 export default App;
