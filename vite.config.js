@@ -6,13 +6,13 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: [
-      { find: "#", replacement: "./src"},
-      { find: "#components", replacement: "./src/components"},
-      { find: "#images", replacement: "./src/images"},
+      { find: "#", replacement: "/src"},
+      { find: "#components", replacement: "/src/components"},
+      { find: "#images", replacement: "/src/images"},
     ]
   },
   server: {
     port: 6120
   },
-  base: "./"
+  base: ""
 })
