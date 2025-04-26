@@ -19,8 +19,8 @@ const Frame = styled.div`
   
   // width: 410px;
   width: 100vw;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 5vw;
+  margin-right: 5vw;
   margin-top: 10px;
 `
 
