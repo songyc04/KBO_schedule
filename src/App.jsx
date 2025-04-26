@@ -19,8 +19,8 @@ const Frame = styled.div`
   
   // width: 410px;
   width: 100vw;
-  // padding-left: 3px;
-  // padding-right: 6px;
+  padding-left: 3px;
+  padding-right: 6px;
   padding-top: 10px; 
 `
 
