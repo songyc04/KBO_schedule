@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 
-import logo from "#images/kbo_logo_latest.svg"
+import logo from "#images/kbo_logo_2025_latest.png"
 
 const TopHeader = () => {
   return (
@@ -18,11 +18,14 @@ const Layout = styled.div`
   justify-content: center;
   align-items: center;
 
-  border: 1px solid black;
+  font-family: 'KBO-Dia-Gothic_bold';
+  /* font-family: 'Pretendard-Regular'; */
+
+  // border: 1px solid black;
 `
 
 const Title = styled.span`
-  // border: 1px solid yellow;
+  margin-left: 5px;
 `
 
 const Logo = styled.img`
