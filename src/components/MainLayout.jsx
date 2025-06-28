@@ -1,13 +1,16 @@
 import styled from "styled-components";
 
+import Game from "#components/Game.jsx";
+
 const MainLayout = () => {
   return (
-    <Layout>Test</Layout>
+    <Layout>
+      <Game />
+    </Layout>
   );
 };
 
 const Layout = styled.div`
-  border: 1px solid red;
   width: 100%;
 `
 
