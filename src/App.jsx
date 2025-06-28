@@ -4,18 +4,23 @@ import { createGlobalStyle } from "styled-components";
 import "./reset.css";
 
 import TopLayout from "#components/TopLayout.jsx";
-
-
+import MainLayout from "#components/MainLayout.jsx";
 
 function App() {
   return (
-    
     <Frame>
       <GlobalStyle />
       <TopLayout />
+      <MainLayout />
     </Frame>
   )
 }
+
+const Frame = styled.div`
+  width: 90vw;
+  margin-left: 5vw;
+  margin-top: 20px;
+`
 
 const GlobalStyle = createGlobalStyle`
   @font-face {
@@ -32,15 +37,5 @@ const GlobalStyle = createGlobalStyle`
     font-style: normal;
   }
 `
-
-
-const Frame = styled.div`
-  width: 90vw;
-  margin-left: 5vw;
-  
-  margin-top: 20px;
-`
-
-
 
 export default App;

@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 import Month from "#components/Months.jsx";
 
-
 const TopBottom = () => {
   return (
     <Layout>

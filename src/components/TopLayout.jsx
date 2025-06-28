@@ -9,16 +9,16 @@ import TopBottom from "#components/TopBottom.jsx"
 
 const TopMenu = () => {
   return (
-    <MainLayout>
+    <Layout>
       <TopHeader />
       <TopMiddle />
       <TopBottom />
-    </MainLayout>
+    </Layout>
 
   );
 }
 
-const MainLayout = styled.div`
+const Layout = styled.div`
   width: 100%;
 
 `
