@@ -30,7 +30,7 @@ const GlobalStyle = createGlobalStyle`
     font-style: normal;
   }
 
-@font-face {
+  @font-face {
     font-family: 'KBO-Dia-Gothic_bold';
     src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/KBO-Dia-Gothic_bold.woff') format('woff');
     font-weight: 700;
