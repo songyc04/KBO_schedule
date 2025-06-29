@@ -2,6 +2,8 @@ import styled from "styled-components";
 
 import GameData from "#data/gamedata.json";
 
+import Heroes from "#images/Heroes.png";
+import Tigers from "#images/Tigers.png";
 
 
 const Game = () => {
@@ -9,8 +11,8 @@ const Game = () => {
   const months = Object.keys(monthData);
   const testData = GameData["2025"]["6월"]["6월 24일 (화)"];
 
-  const Heroes = "src/images/Heroes.png";
-  const Tigers = "src/images/Tigers.png";
+  // const Heroes = "src/images/Heroes.png";
+  // const Tigers = "src/images/Tigers.png";
 
   return (
     <Layout>
