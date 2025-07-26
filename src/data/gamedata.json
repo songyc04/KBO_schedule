@@ -793,7 +793,7 @@
       },
       "6월 20일 (금)": {
         "time": "18:30",
-        "stadium": "대전(신)",
+        "stadium": "대전",
         "status": "취소",
         "away": "키움",
         "awayScore": "-",
@@ -802,7 +802,7 @@
       },
       "6월 21일 (토)": {
         "time": "17:00",
-        "stadium": "대전(신)",
+        "stadium": "대전",
         "status": "취소",
         "away": "키움",
         "awayScore": "-",
@@ -811,7 +811,7 @@
       },
       "6월 22일 (일)": {
         "time": "17:00",
-        "stadium": "대전(신)",
+        "stadium": "대전",
         "status": "종료",
         "away": "키움",
         "awayScore": "4",
@@ -866,99 +866,99 @@
       "6월 29일 (일)": {
         "time": "14:00",
         "stadium": "고척",
-        "status": "예정",
+        "status": "종료",
         "away": "삼성",
-        "awayScore": "-",
+        "awayScore": "7",
         "home": "키움",
-        "homeScore": "-"
+        "homeScore": "10"
       }
     },
     "7월": {
       "7월 1일 (화)": {
         "time": "18:30",
         "stadium": "수원",
-        "status": "예정",
+        "status": "종료",
         "away": "키움",
-        "awayScore": "-",
+        "awayScore": "7",
         "home": "KT",
-        "homeScore": "-"
+        "homeScore": "3"
       },
       "7월 2일 (수)": {
         "time": "18:30",
         "stadium": "수원",
-        "status": "예정",
+        "status": "종료",
         "away": "키움",
-        "awayScore": "-",
+        "awayScore": "2",
         "home": "KT",
-        "homeScore": "-"
+        "homeScore": "4"
       },
       "7월 3일 (목)": {
         "time": "18:30",
         "stadium": "수원",
-        "status": "예정",
+        "status": "종료",
         "away": "키움",
-        "awayScore": "-",
+        "awayScore": "2",
         "home": "KT",
-        "homeScore": "-"
+        "homeScore": "6"
       },
       "7월 4일 (금)": {
         "time": "18:30",
         "stadium": "고척",
-        "status": "예정",
+        "status": "종료",
         "away": "한화",
-        "awayScore": "-",
+        "awayScore": "2",
         "home": "키움",
-        "homeScore": "-"
+        "homeScore": "1"
       },
       "7월 5일 (토)": {
         "time": "18:00",
         "stadium": "고척",
-        "status": "예정",
+        "status": "종료",
         "away": "한화",
-        "awayScore": "-",
+        "awayScore": "6",
         "home": "키움",
-        "homeScore": "-"
+        "homeScore": "4"
       },
       "7월 6일 (일)": {
         "time": "14:00",
         "stadium": "고척",
-        "status": "예정",
+        "status": "종료",
         "away": "한화",
-        "awayScore": "-",
+        "awayScore": "10",
         "home": "키움",
-        "homeScore": "-"
+        "homeScore": "1"
       },
       "7월 8일 (화)": {
         "time": "18:30",
         "stadium": "잠실",
-        "status": "예정",
+        "status": "종료",
         "away": "키움",
-        "awayScore": "-",
+        "awayScore": "3",
         "home": "LG",
-        "homeScore": "-"
+        "homeScore": "4"
       },
       "7월 9일 (수)": {
         "time": "18:30",
         "stadium": "잠실",
-        "status": "예정",
+        "status": "종료",
         "away": "키움",
-        "awayScore": "-",
+        "awayScore": "6",
         "home": "LG",
-        "homeScore": "-"
+        "homeScore": "12"
       },
       "7월 10일 (목)": {
         "time": "18:30",
         "stadium": "잠실",
-        "status": "예정",
+        "status": "종료",
         "away": "키움",
-        "awayScore": "-",
+        "awayScore": "4",
         "home": "LG",
-        "homeScore": "-"
+        "homeScore": "3"
       },
       "7월 17일 (목)": {
         "time": "18:30",
         "stadium": "대구",
-        "status": "예정",
+        "status": "취소",
         "away": "키움",
         "awayScore": "-",
         "home": "삼성",
@@ -967,7 +967,7 @@
       "7월 18일 (금)": {
         "time": "18:30",
         "stadium": "대구",
-        "status": "예정",
+        "status": "취소",
         "away": "키움",
         "awayScore": "-",
         "home": "삼성",
@@ -976,7 +976,7 @@
       "7월 19일 (토)": {
         "time": "18:00",
         "stadium": "대구",
-        "status": "예정",
+        "status": "취소",
         "away": "키움",
         "awayScore": "-",
         "home": "삼성",
@@ -985,56 +985,56 @@
       "7월 20일 (일)": {
         "time": "18:00",
         "stadium": "대구",
-        "status": "예정",
+        "status": "종료",
         "away": "키움",
-        "awayScore": "-",
+        "awayScore": "10",
         "home": "삼성",
-        "homeScore": "-"
+        "homeScore": "15"
       },
       "7월 22일 (화)": {
         "time": "18:30",
         "stadium": "고척",
-        "status": "예정",
+        "status": "종료",
         "away": "롯데",
-        "awayScore": "-",
+        "awayScore": "3",
         "home": "키움",
-        "homeScore": "-"
+        "homeScore": "6"
       },
       "7월 23일 (수)": {
         "time": "18:30",
         "stadium": "고척",
-        "status": "예정",
+        "status": "종료",
         "away": "롯데",
-        "awayScore": "-",
+        "awayScore": "4",
         "home": "키움",
-        "homeScore": "-"
+        "homeScore": "1"
       },
       "7월 24일 (목)": {
         "time": "18:30",
         "stadium": "고척",
-        "status": "예정",
+        "status": "종료",
         "away": "롯데",
-        "awayScore": "-",
+        "awayScore": "4",
         "home": "키움",
-        "homeScore": "-"
+        "homeScore": "0"
       },
       "7월 25일 (금)": {
         "time": "18:30",
         "stadium": "창원",
-        "status": "예정",
+        "status": "종료",
         "away": "키움",
-        "awayScore": "-",
+        "awayScore": "7",
         "home": "NC",
-        "homeScore": "-"
+        "homeScore": "16"
       },
       "7월 26일 (토)": {
         "time": "18:00",
         "stadium": "창원",
-        "status": "예정",
+        "status": "종료",
         "away": "키움",
-        "awayScore": "-",
+        "awayScore": "6",
         "home": "NC",
-        "homeScore": "-"
+        "homeScore": "8"
       },
       "7월 27일 (일)": {
         "time": "18:00",
