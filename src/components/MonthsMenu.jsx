@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 
-const MonthsMenu = ({ months, selectedMonth, onMonthClick }) => {
+const MonthsMenu = ({ months, onMonthClick }) => {
   return (
     <Layout>
       {months.map((month) => (
