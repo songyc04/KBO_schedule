@@ -1,24 +1,27 @@
+import { useState } from "react";
+
 import styled from "styled-components";
 
-import Game from "#components/Game.jsx";
+
+import MonthsMenu from "#components/MonthsMenu.jsx"
+import GameContainer from "#components/GameContainer.jsx"
 
 import GameData from "#data/gamedata.json";
 
 
+
 const MainLayout = () => {
+  const months = ["3월", "4월", "5월", "6월", "7월", "8월", "9월", "10월", "11월", "12월"]
 
-  const monthData = GameData["2025"]["6월"];
-  // console.log(monthData);
-  // const dateData = Object.keys(month);
-  // console.log(dateData);
-
+  const [selectedMonth, setSelectedMonth] = useState(months[0]);
+  const MonthSelectingFunc = (month) => {
+    setSelectedMonth(month)
+  }
 
   return (
     <Layout>
-      {Object.entries(monthData).map(([date, dateData]) => (
-        <Game key={date} date={date} dateData={dateData} />
-      ))}
-      
+      <MonthsMenu months={months} selectedMonth={selectedMonth} onMonthClick={MonthSelectingFunc} />
+      <GameContainer months={selectedMonth} />
     </Layout>
   );
 };

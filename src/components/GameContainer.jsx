@@ -27,24 +27,34 @@ const logo = {
   KT: Wiz
 };
 
-const Game = ({ date, dateData }) => {
-  const awayLogo = logo[dateData.away];
-  const homeLogo = logo[dateData.home]
-
+const GameContainer = ({ months }) => {
+  const MonthGameData = GameData["2025"][months];
+  const MonthGameDataList = MonthGameData ? Object.entries(MonthGameData) : [];
 
   return (
-    <Layout>
-      <Date>{date}</Date>
-      <Time>{dateData.time}</Time>
-      <TeamImg src={awayLogo}/>
-      <Team>{dateData.away}</Team>
-      <Score>{dateData.awayScore}</Score>
-      <Stadium>{dateData.stadium}</Stadium>
-      
-      <TeamImg src={homeLogo}/>
-      <Team>{dateData.home}</Team>
-      <Score>{dateData.homeScore}</Score>
-    </Layout>
+    <>
+      {MonthGameDataList.map(([date, dateData]) => {
+        const awayLogo = logo[dateData.away];
+        const homeLogo = logo[dateData.home];
+        
+        return (
+          <Layout key={date}>
+            <Date>{date}</Date>
+            <Time>{dateData.time}</Time>
+            <Stadium>{dateData.stadium}</Stadium>
+            <TeamImg src={awayLogo}/>
+            <Team>{dateData.away}</Team>
+            <Score>{dateData.awayScore}</Score>
+
+            <Status>{dateData.status}</Status>
+
+            <Score>{dateData.homeScore}</Score>
+            <Team>{dateData.home}</Team>
+            <TeamImg src={homeLogo}/>
+          </Layout>
+        );
+      })}
+    </>
   );
 };
 
@@ -60,6 +70,9 @@ const Layout = styled.div`
 const Date = styled.div`
   width: 100%;
 `
+const Status = styled.div`
+  width: 10%;
+`
 const Time = styled.div`
   width: 10%;
   text-align: center;
@@ -69,14 +82,14 @@ const Stadium = styled.div`
   text-align: center;
 `
 const Team = styled.div`
-  width: 30%;
+  width: 20%;
 `
 const Score = styled.div`
-  width: 48%;
+  width: 5%;
 `
 
 const TeamImg = styled.img`
   width: 10%;
 `
 
-export default Game;
+export default GameContainer;

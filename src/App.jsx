@@ -4,13 +4,15 @@ import { createGlobalStyle } from "styled-components";
 import "./reset.css";
 
 import TopLayout from "#components/TopLayout.jsx";
-import MainLayout from "#components/MainLayout.jsx";
+import MidLayout from "#components/MidLayout.jsx";
+import MainLayout from "#components/MainLayout";
 
 function App() {
   return (
     <Frame>
       <GlobalStyle />
       <TopLayout />
+      <MidLayout />
       <MainLayout />
     </Frame>
   )
