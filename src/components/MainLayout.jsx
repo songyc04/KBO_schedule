@@ -6,8 +6,6 @@ import styled from "styled-components";
 import MonthsMenu from "#components/MonthsMenu.jsx"
 import GameContainer from "#components/GameContainer.jsx"
 
-import GameData from "#data/gamedata.json";
-
 
 
 const MainLayout = () => {
